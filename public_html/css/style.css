@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15.09.2015, 11:23:11
+    Author     : Andrey
+*/
+
+/*.firstVideo{
+    padding-top:10px;
+}*/
+/*
+*/body{
+    padding-top: 70px;
+}
+
+*{
+    font-family: Verdana;
+}
+
+#singUP{
+/*    position: absolute;
+    right: 0;
+    top:0;
+    margin: 10px;*/
+    background-color: #000;
+    border: 2px solid #42b8dd;
+    color: #42b8dd;
+   
+    
+}
