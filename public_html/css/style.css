@@ -11,23 +11,74 @@ and open the template in the editor.
 /*.firstVideo{
     padding-top:10px;
 }*/
-/*
-*/body{
-    padding-top: 70px;
-}
+
 
 *{
     font-family: Verdana;
 }
 
+/*navbar*/
+#navbar{
+    padding-left: 120px;
+}
+
+.nav > li > a:first-child{
+    color: #f4f4f4;
+}
+
+#brand{
+    color: #ffffff;
+    font-size: 23px;
+}
+
 #singUP{
-/*    position: absolute;
-    right: 0;
-    top:0;
-    margin: 10px;*/
     background-color: #000;
     border: 2px solid #42b8dd;
-    color: #42b8dd;
-   
-    
+    color: #42b8dd; 
+}
+
+.btn{
+    border-radius: 10px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+/* firsvideo */
+img{
+    text-align: center;
+    vertical-align: middle;
+}
+.firstVideo{
+    height: 820px;
+    background: #666666;
+
+}
+
+.firstVideo .container{
+    height: 100%;
+    display:table;
+    width: 100%;
+    padding: 0;
+}
+
+/*central blocs*/
+.firstVideo .centered {
+    float:none;
+    margin:0 auto;
+}
+
+.firstVideo .row{
+    height:100%; 
+    display:table-cell; 
+    vertical-align: middle;
+}
+.col-md-9{
+    font-size: 44px;
+    color: #ffffff;
+}
+
+
+.firstVideo .container{
+    background: red;
+    height: 100%;
 }
