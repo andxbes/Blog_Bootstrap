@@ -48,13 +48,13 @@ img{
     text-align: center;
     vertical-align: middle;
 }
-.firstVideo{
+.firstVideo {
     height: 820px;
     background: #666666;
 
 }
 
-.firstVideo .container{
+.centeredtable{
     height: 100%;
     display:table;
     width: 100%;
@@ -62,12 +62,12 @@ img{
 }
 
 /*central blocs*/
-.firstVideo .centered {
+/*.firstVideo .centered {
     float:none;
     margin:0 auto;
-}
+}*/
 
-.firstVideo .row{
+.centeredRow{
     height:100%; 
     display:table-cell; 
     vertical-align: middle;
@@ -77,8 +77,33 @@ img{
     color: #ffffff;
 }
 
+.blue_text{
+     color:#42b8dd;
+}
 
-.firstVideo .container{
-    background: red;
-    height: 100%;
+.firstVideo .col-md-3{
+    font-size: 12px;
+    font-weight: bold;
+}
+/* .firstVideo .container .container{
+    display: block;
+} */
+
+
+
+// Mixin
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstVideo .centeredRow .col-md-9{
+    left:-90px;
+}
+
+.firstVideo .media-object{
+    height: 105px;
+    width: 75px;
+    
 }
