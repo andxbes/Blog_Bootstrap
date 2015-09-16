@@ -148,7 +148,7 @@ html{
 
 #firstVideo i{
     font-size: 105px;
-    color: red;
+    color: #f24264;
     
 }
 /*services
@@ -226,7 +226,10 @@ banner 350px
 
 */
 
-#work{
+#work,
+#about,
+#contacts,
+#skills{
     background-color: #ebebeb;
     padding:  90px 0  90px 0 ;
 }
@@ -252,13 +255,73 @@ banner 350px
     
 }
 
-#work div.row .col-md-4{
+#work div.row .col-md-4,
+#work div.row .col-md-1{
     padding-left: 0; 
 }
 
 
 
 /*team*/
+#about .row .col-md-4{
+    padding-top:85px;
+    padding-bottom: 85px;
+}
+
+#about .fa-user{
+    height: 169px;
+    width:  169px;
+    font-size: 155px;
+    border:1px solid #cccccc;
+    border-radius: 50%;
+    text-align: center;
+    background: #cccccc;
+}
+
+#about .soclink i{
+    height: 50px;
+    width:  50px;
+    font-size: 40px;
+    border:1px solid #42b8dd;
+    border-radius: 50%;
+    text-align: center;
+    background: #42b8dd;
+    line-height: 50px;
+    color: white;
+  
+}
+
+#about .soclink{
+       position: absolute;
+       top: 60px;
+       left:155px;
+}
+
+.personal-text span{
+   display: inline-block;
+   margin-top: 6px;
+   margin-bottom: 20px;
+}
+
+#about a.text-uppercase{
+    font-size: 19px;
+} 
+
+#about .personal-text{
+    padding-top:48px;
+    padding-left:110px;
+}
+
+#underteamBlackB{
+   
+    
+    height: 100px;
+
+}
+.graySpice{
+     background: #666666;
+}
+
 
 /*skells*/
 
