@@ -21,6 +21,20 @@ html{
     padding: 0;
     margin: 0;
 }
+
+
+.big-white-text{
+    font-size: 56px;
+    color: white;
+    line-height: 48px;
+}
+
+.underLineSpan{
+     text-decoration: underline;
+}
+
+
+
 /*navbar*/
 #navbar{
     padding-left: 120px;
@@ -98,10 +112,46 @@ img{
     bottom: -25px;
 }
 
+#firstVideo p{
+    margin: 0px 0px 0px;
+}
+
 #firstVideo .media-object{
     height: 105px;
     width: 70px;
     
 }
-/*services*/
+/*services
+all 511px
+-
+bottom block 150px
 
+*/
+#services{
+    height: 511px;
+   
+}
+
+.blueSpice{
+    background-color: #42b8dd;
+}
+
+
+/*work
+1325px
++
+banner 350px
+
+*/
+
+
+
+/*team*/
+
+/*skells*/
+
+
+/*contacts*/
+
+
+/*copiright*/
