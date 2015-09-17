@@ -262,6 +262,8 @@ banner 350px
 
 
 
+
+
 /*team*/
 #about .row .col-md-4{
     padding-top:85px;
@@ -312,10 +314,19 @@ banner 350px
     padding-left:110px;
 }
 
-#underteamBlackB{
-   
+#underteamBlackB .row i{
+   padding-top:75px;
+    font-size: 53px;
+
+}
+#underteamBlackB .row h1{
+    font-size: 54px;
+    margin-bottom:0;
+}
+
+#underteamBlackB .row p{
     
-    height: 100px;
+    margin-bottom:80px;
 
 }
 .graySpice{
@@ -324,6 +335,17 @@ banner 350px
 
 
 /*skells*/
+
+
+/*accordion*/
+
+#skills .panel-title a:hover,
+#skills .panel-title a:focus{text-decoration: none; color:42b8dd;}
+
+#skills .glyphicon { margin-right:10px; }
+#skills .panel-body { padding:15px 40px 0px 20px; }
+
+
 
 
 /*contacts*/
