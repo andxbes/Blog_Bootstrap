@@ -228,8 +228,8 @@ banner 350px
 
 #work,
 #about,
-#contacts,
-#skills{
+#skills,
+#contacts{
     padding:  90px 0  90px 0 ;
 }
 
@@ -398,6 +398,9 @@ div .grafic-block  div{
      
 }
 
+#skills h4{
+    color: #42b8dd;
+}
 
 
 #skills .grafic-block{
@@ -405,7 +408,7 @@ div .grafic-block  div{
     margin-bottom: 52px;
 }
 
-div.col-xs-12:nth-child(2){
+#skills div.col-xs-12:nth-child(2){
     padding: 0;
     margin: 0;
 }
@@ -432,11 +435,62 @@ div.col-xs-12:nth-child(2){
 }
 
 
-
-
-
+.zerro-leftDIV div{
+    padding-left:  0;
+}
 
 /*contacts*/
+#contacts h5{
+    line-height: 2em;
+}
+
+#contacts .container div:not(.form){
+    
+  
+}
+#contacts a{
+    margin-right: 6px;
+}
+
+#contacts form{
+    
+}
+
+#contacts .col-md-12{
+    padding:50px 0px  0px 0px;
+}
+
+#contacts form  div{
+    padding-left:0;
+    
+}
+
+#contacts form .sendGroup,
+#contacts form .sendGroup  .form-control{
+    height: 78px; 
+}
+
+#contacts form .userField,
+#contacts form .userField  .form-control{
+    height: 47px; 
+}
+
+#contacts form .sendGroup .btn{
+    line-height: 3.2em;
+}
+
+#contacts form .form-control:not(button){
+     background: #ebebeb;
+}
+
+#contacts form .form-control:not(button):focus{
+     background: white;
+}
+
+
+
+
+
 
 
 /*copiright*/
